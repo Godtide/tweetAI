@@ -13,23 +13,23 @@ TweetAI is designed to simulate a social media experience where all interactions
 - Rate Limiting: Limits developers to 5 API requests per minute, with each request returning a maximum of 10 results.
 
 ## Technologies Used
-Backend: Node.js, Express.js
-Frontend: Vue.js
-Database: MySQL
-Background Jobs: Cron Jobs using node-cron
-External API: `jsonplaceholder.typicode.com` for generating sample data (Users, Posts, Comments)
+- Backend: Node.js, Express.js
+- Frontend: Vue.js
+- Database: MySQL
+- Background Jobs: Cron Jobs using node-cron
+- External API: `jsonplaceholder.typicode.com` for generating sample data (Users, Posts, Comments)
 
 ## Getting Started
 # Prerequisites
-Node.js (v14.x or higher)
-MySQL (v5.7 or higher)
-Git
-Vue CLI
+- Node.js (v14.x or higher)
+- MySQL (v5.7 or higher)
+- Git
+- Vue CLI
 
 
 # Installation
 1. Clone the Repository `git clone https://github.com/Godtide/tweetAI.git`
-2. `cd smart_insight_assessment`
+2. `cd tweetAI`
 3. Install Backend Dependencies
 `cd backend`
 `npm install`
@@ -44,11 +44,11 @@ Create a `.env` file in the backend directory using the `.env.example` file conf
 
 6. Running the Project
 Start the Backend Server
-`cd backend`
-`npm start`
+- `cd backend`
+- `npm start`
 Start the Frontend Server
-`cd ../tweetai-frontend`
-`npm run serve`
+- `cd ../tweetai-frontend`
+- `npm run serve`
 Background Cron Job: The cron job to create Autobots runs automatically in the background.
 
 ## Documentation
@@ -81,7 +81,8 @@ URL: `/api/update-autobot-count`
 Method: POST
 Description: Updates the count of Autobots based on the system status.
 Response: Message indicating success and the new count.
-UI
+
+# UI
 The frontend of TweetAI provides a real-time view of the number of Autobots created. Navigate to http://localhost:8080 in your web browser to view the dashboard.
 
 ## Rate Limiting
