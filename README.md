@@ -28,7 +28,7 @@ Vue CLI
 
 
 # Installation
-1. Clone the Repository `git clone https://github.com/your-username/tweetAI.git`
+1. Clone the Repository `git clone https://github.com/Godtide/tweetAI.git`
 2. `cd smart_insight_assessment`
 3. Install Backend Dependencies
 `cd backend`
